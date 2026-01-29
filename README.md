@@ -1,18 +1,30 @@
 # autotrophicseal.github.io
-Website
 
-## Description
+Small, static personal website hosted on GitHub Pages. The site is a single-page HTML portfolio with custom CSS/JS and a PDF resume.
 
-My code and process for building my own personal website.
+## Contents
 
-## Installation and Setup
+- `index.html` — main page markup
+- `assets/css/styles.css` — styling
+- `assets/js/main.js` — small UI scripts
+- `assets/Matthew_Roberts_Resume.pdf` — downloadable resume
 
-1. Used Github to set up my own static website
-2. Found a template from the internet that I could modify (Browny from free-css.com)
-3. Heavily modified it to match what I needed
-4. Uploaded some major past projects to GitHub and attached through links in the website.
+## Local preview
 
-## Links
+Open `index.html` directly in a browser, or run a simple static server in this folder:
 
-- HTML Template: [https://www.free-css.com/free-css-templates/page296/browny](https://www.free-css.com/free-css-templates/page296/browny)
-- Github Pages: [https://pages.github.com/](https://pages.github.com/)
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Editing
+
+- Update copy and section content in `index.html`
+- Tweak layout, colors, and typography in `assets/css/styles.css`
+- Adjust interactions in `assets/js/main.js`
+
+## Deployment
+
+Push to the repository configured for GitHub Pages. The site is served from the repo root.
